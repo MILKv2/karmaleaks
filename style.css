@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Roboto+Mono:wght@700&family=Roboto:ital,wght@1,300&family=Sometype+Mono&family=Source+Code+Pro&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #636363, #424242d5, #a3a3a3, #12003a8f);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.containerfilesmain {
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 200px;
+  max-width: 1500px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 5em;
+  padding-bottom: 150px;
+  order: sortable;
+}
+
+.item {
+  background: rgba(0, 0, 0, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.1px);
+  -webkit-backdrop-filter: blur(10.1px);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  width: 300px;
+  order: sortable;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  align-self: flex-start;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+
+.header1 {
+  font-size: 50px;
+}
+
+
+.downloadbutton {
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+  background-color: transparent;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.6px);
+  -webkit-backdrop-filter: blur(11.6px);
+  color: white;
+  font-size: 25px;
+}
+
+
+.downloadbutton:hover {
+  transform: scale(1.05);
+}
+
+
+.descfiles {
+  margin-top: 20px;
+  height: 230px;
+  display: block;
+  overflow: hidden;
+}
+
+.osfiles {
+  margin-top: 30px;
+}
+
+.osfiles1 {
+  margin-top: 50px;
+} 
+
+
+.close-btn {
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.headerdiv {
+  padding-top: 250px;
+  margin-bottom: -100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.header1files {
+  font-size: 50px;
+}
+
+#one {
+  padding-top: 100px;
+  margin-bottom: -100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.przedzialek {
+  margin-top: 100px;
+  margin-bottom: -30px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media (max-width: 940px) {
+  .menu-btn {
+    display: block;
+  }
+
+
+}
+
+.menu-btn {
+  display: none;
+  position: absolute;
+}
+
+.descfiles1 {
+  margin-top: 20px;
+  height: 180px;
+  display: block;
+  overflow: hidden;
+}
+
+.descfiles1 li {
+  margin-left: 40px;
+  text-align: left;
+}
+
+
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+input[type="search"]::-ms-clear {  
+  display: none;
+}
+
+input[type="search"]::-ms-reveal {  
+  display: none;
+}
+
+
+.searchbar {
+  justify-content: center;
+  text-align: center;
+  border: 2px solid transparent;
+  margin: 200px 10px 0 10px;
+}
+
+.searchbar input {
+  border: 2px solid #9400D3;
+  box-shadow: 0 0 5px rgba(148, 0, 211, 0.5);
+}
+
+.searchbar input:focus {
+  outline: none;
+}
+
+.searchtext {
+  font-size: 50px;
+}
+
+.searchbar input {
+  width: 100%;
+  max-width: 800px;
+  height: 50px;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 32px;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    flex-direction: unset;
+}
+
+.textfooter1 {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
