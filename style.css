@@ -10,7 +10,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #636363, #424242d5, #a3a3a3, #12003a8f);
+  background: url('background.png');
+    /* background: linear-gradient(135deg, #636363, #424242d5, #a3a3a3, #12003a8f); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
