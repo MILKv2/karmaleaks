@@ -246,7 +246,7 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 930px) {
   .cfgtuto {
     display: none;
   }
