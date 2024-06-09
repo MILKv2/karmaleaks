@@ -247,7 +247,7 @@ footer {
 }
 
 @media (max-width: 920px) {
-  .cfgtuto video {
+  .cfgtuto {
     display: none;
   }
 }
