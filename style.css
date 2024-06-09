@@ -79,6 +79,7 @@ body {
   -webkit-backdrop-filter: blur(11.6px);
   color: white;
   font-size: 25px;
+  cursor: pointer;
 }
 
 
@@ -231,4 +232,22 @@ footer {
     margin: auto;
     padding: 20px;
     text-align: center;
+}
+
+.cfgtuto video {
+  max-width: 900px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px 0 rgba(111, 0, 255, 0.5);
+  background-color: rgba(111, 0, 255, 0.5);
+}
+
+.cfgtuto {
+  margin: 100px 10px 0 10px;
+  text-align: center;
+}
+
+@media (max-width: 920px) {
+  .cfgtuto video {
+    display: none;
+  }
 }
