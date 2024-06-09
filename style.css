@@ -234,7 +234,7 @@ footer {
     text-align: center;
 }
 
-.cfgtuto video {
+.cfgtuto iframe {
   max-width: 900px;
   border-radius: 16px;
   box-shadow: 0 0 20px 0 rgba(111, 0, 255, 0.5);
