@@ -250,3 +250,7 @@ footer {
     display: none;
   }
 }
+
+section {
+  margin: 100px 20px;
+}
