@@ -1,12 +1,12 @@
 {
   "Metadata": {
     "version": "6",
-    "creationDate": "17.07.2024"
+    "creationDate": "19.07.2024"
   },
   "module.combat.legitreach.name": {
-    "state": true,
+    "state": false,
     "Max Ping Spoof in module.combat.legitreach.name Module": {
-      "value": 249.0
+      "value": 1000.0
     },
     "Render Real Location in module.combat.legitreach.name Module": {
       "value": true
@@ -112,9 +112,9 @@
     }
   },
   "module.player.antifireball.name": {
-    "state": true,
+    "state": false,
     "Rotate in module.player.antifireball.name Module": {
-      "value": false
+      "value": true
     }
   },
   "module.player.fastuse.name": {
@@ -196,7 +196,7 @@
     "state": true,
     "Position in module.render.keystrokes.name Module": {
       "positionX": 4.5,
-      "positionY": 192.0,
+      "positionY": 285.0,
       "scaleX": 72.0,
       "scaleY": 72.0
     },
@@ -313,7 +313,7 @@
   "module.player.scaffold.name": {
     "state": false,
     "Mode in module.player.scaffold.name Module": {
-      "value": "Normal"
+      "value": "Telly"
     },
     "Rotation Mode in module.player.scaffold.name Module": {
       "value": "Normal"
@@ -322,7 +322,7 @@
       "value": "Normal"
     },
     "Sprint in module.player.scaffold.name Module": {
-      "value": "Matrix"
+      "value": "Bypass"
     },
     "Speed in Vulcan Mode": {
       "value": 1.3
@@ -331,7 +331,7 @@
       "value": "Disabled"
     },
     "Same Y in module.player.scaffold.name Module": {
-      "value": "Off"
+      "value": "On"
     },
     "Downwards (Press Sneak) in module.player.scaffold.name Module": {
       "value": "Off"
@@ -341,8 +341,8 @@
       "second": 9.0
     },
     "Place Delay in module.player.scaffold.name Module": {
-      "first": 2.0,
-      "second": 3.0
+      "first": 0.0,
+      "second": 0.0
     },
     "Timer in module.player.scaffold.name Module": {
       "value": 1.0
@@ -354,22 +354,22 @@
       "value": true
     },
     "Safe Walk in module.player.scaffold.name Module": {
-      "value": true
+      "value": false
     },
     "Sneak in module.player.scaffold.name Module": {
       "value": false
     },
     "Start Sneaking in module.player.scaffold.name Module": {
-      "first": 1.0,
-      "second": 1.0
+      "first": 0.0,
+      "second": 0.0
     },
     "Stop Sneaking in module.player.scaffold.name Module": {
-      "first": 1.0,
-      "second": 1.0
+      "first": 0.0,
+      "second": 0.0
     },
     "Sneak every x blocks in module.player.scaffold.name Module": {
-      "first": 5.0,
-      "second": 6.0
+      "first": 1.0,
+      "second": 1.0
     },
     "Sneaking Speed in module.player.scaffold.name Module": {
       "value": 0.2
@@ -384,7 +384,7 @@
       "value": "0"
     },
     "Ignore Speed Effect in module.player.scaffold.name Module": {
-      "value": true
+      "value": false
     },
     "Up Side Down in module.player.scaffold.name Module": {
       "value": false
@@ -451,9 +451,9 @@
     "state": true,
     "Position in module.render.scoreboard.name Module": {
       "positionX": 4.5,
-      "positionY": 37.0,
-      "scaleX": 100.0,
-      "scaleY": 141.0
+      "positionY": 44.0,
+      "scaleX": 152.0,
+      "scaleY": 150.0
     },
     "Outline in module.render.scoreboard.name Module": {
       "value": false
@@ -466,7 +466,7 @@
     }
   },
   "module.player.manager.name": {
-    "state": false,
+    "state": true,
     "Delay in module.player.manager.name Module": {
       "first": 100.0,
       "second": 200.0
@@ -497,18 +497,18 @@
     }
   },
   "module.render.2desp.name": {
-    "state": true,
+    "state": false,
     "Box Mode in module.render.2desp.name Module": {
-      "value": "Standard"
+      "value": "None"
     },
     "Health Bar Mode in module.render.2desp.name Module": {
-      "value": "Gradient"
+      "value": "None"
     },
     "Moggage... in module.render.2desp.name Module": {
       "value": false
     },
     "Targets in module.render.2desp.name Module": {
-      "value": true
+      "value": false
     },
     "Player in module.render.2desp.name Module": {
       "value": true
@@ -640,9 +640,9 @@
     }
   },
   "module.movement.inventorymove.name": {
-    "state": false,
+    "state": true,
     "Bypass Mode in module.movement.inventorymove.name Module": {
-      "value": "Watchdog"
+      "value": "Normal"
     },
     "Clicks in Buffer Abuse Mode": {
       "value": 3.0
@@ -672,8 +672,8 @@
   "module.player.stealer.name": {
     "state": false,
     "Delay in module.player.stealer.name Module": {
-      "first": 50.0,
-      "second": 100.0
+      "first": 0.0,
+      "second": 0.0
     },
     "Ignore Trash in module.player.stealer.name Module": {
       "value": true
@@ -708,8 +708,8 @@
   "module.render.hotbar.name": {
     "state": true,
     " in module.render.hotbar.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
+      "positionX": 549.0,
+      "positionY": 641.5,
       "scaleX": 182.0,
       "scaleY": 40.0
     }
@@ -717,7 +717,7 @@
   "module.ghost.aimbacktrack.name": {
     "state": true,
     "Rotation Backtrack Amount in module.ghost.aimbacktrack.name Module": {
-      "value": 8.0
+      "value": 14.0
     }
   },
   "module.other.antiafk.name": {
@@ -760,9 +760,9 @@
       "value": "Glass"
     },
     "Position in module.render.targetinfo.name Module": {
-      "positionX": 886.0,
-      "positionY": 169.0,
-      "scaleX": 165.0,
+      "positionX": 912.0,
+      "positionY": 304.0,
+      "scaleX": 151.0,
       "scaleY": 48.0
     },
     "Follow Player in module.render.targetinfo.name Module": {
@@ -1039,7 +1039,7 @@
   "module.combat.velocity.name": {
     "state": true,
     "Mode in module.combat.velocity.name Module": {
-      "value": "Polar"
+      "value": "Intave"
     },
     "Horizontal in Standard Mode": {
       "value": 0.0
@@ -1198,7 +1198,7 @@
   "module.render.interface.name": {
     "state": true,
     "Mode in module.render.interface.name Module": {
-      "value": "Classic"
+      "value": "Modern"
     },
     "ArrayList Color Mode in Modern Mode": {
       "value": "Fade"
@@ -1405,7 +1405,7 @@
       "value": true
     },
     "UniversoCraft in module.combat.disabler.name Module": {
-      "value": false
+      "value": true
     },
     "Rise Balance Timer Abuse in module.combat.disabler.name Module": {
       "value": false
@@ -1565,11 +1565,11 @@
       "value": "Switch"
     },
     "Switch Delay in module.combat.killaura.name Module": {
-      "first": 5.0,
-      "second": 7.0
+      "first": 2.0,
+      "second": 3.0
     },
     "Auto Block in module.combat.killaura.name Module": {
-      "value": "Grim"
+      "value": "Old Intave"
     },
     "Right Click Only in module.combat.killaura.name Module": {
       "value": false
@@ -1578,7 +1578,7 @@
       "value": false
     },
     "Sorting in module.combat.killaura.name Module": {
-      "value": "Distance"
+      "value": "Health"
     },
     "Click Delay Mode in module.combat.killaura.name Module": {
       "value": "Normal"
@@ -1588,17 +1588,17 @@
     },
     "CPS in module.combat.killaura.name Module": {
       "first": 9.0,
-      "second": 14.0
+      "second": 13.0
     },
     "Rotation speed in module.combat.killaura.name Module": {
-      "first": 9.0,
+      "first": 10.0,
       "second": 10.0
     },
     "Movement correction in module.combat.killaura.name Module": {
       "value": "Rise"
     },
     "Keep sprint in module.combat.killaura.name Module": {
-      "value": false
+      "value": true
     },
     "Target ESP Mode in module.combat.killaura.name Module": {
       "value": "Ring"
@@ -1610,7 +1610,7 @@
       "value": true
     },
     "Through Walls in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     },
     "Advanced in module.combat.killaura.name Module": {
       "value": true
@@ -1634,16 +1634,16 @@
       "value": true
     },
     "Invisibles in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     },
     "Animals in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     },
     "Mobs in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     },
     "Player Teammates in module.combat.killaura.name Module": {
-      "value": false
+      "value": true
     }
   },
   "module.render.killeffect.name": {
@@ -1674,7 +1674,7 @@
     },
     "Position in module.render.bpscounter.name Module": {
       "positionX": 4.5,
-      "positionY": 280.0,
+      "positionY": 367.0,
       "scaleX": 41.0,
       "scaleY": 21.0
     }
@@ -1724,8 +1724,8 @@
       "value": false
     },
     " in module.render.chat.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
+      "positionX": 4.5,
+      "positionY": 525.0,
       "scaleX": 406.6666564941406,
       "scaleY": 130.0
     }
@@ -1757,7 +1757,7 @@
       "value": true
     },
     "Empty Surrounding in module.player.breaker.name Module": {
-      "value": true
+      "value": false
     },
     "Rotate in module.player.breaker.name Module": {
       "value": true
@@ -1942,7 +1942,7 @@
     }
   },
   "module.movement.noslow.name": {
-    "state": false,
+    "state": true,
     "Mode in module.movement.noslow.name Module": {
       "value": "Prediction"
     },
@@ -1977,5 +1977,5 @@
       "value": true
     }
   },
-  "theme": "LIME_WATER"
+  "theme": "SNOWY_SKY"
 }
